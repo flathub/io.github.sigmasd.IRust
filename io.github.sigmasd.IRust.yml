@@ -7,7 +7,11 @@ sdk-extensions:
   - org.freedesktop.Sdk.Extension.rust-stable
 
 command: irust
-finish-args: []
+
+finish-args: 
+  - --socket=wayland
+  - --socket=fallback-x11
+
 modules:
   - name: irust
     buildsystem: simple
@@ -25,8 +29,8 @@ modules:
 
     sources:
       - type: archive
-        url: https://github.com/sigmaSd/IRust/archive/refs/tags/irust@1.71.17.tar.gz
-        sha256: 8c1796ed59346421502a41e7e8956d73fff790d6f6c17aacfef46985cab0af2c
+        url: https://github.com/sigmaSd/IRust/archive/refs/tags/irust@1.71.18.tar.gz
+        sha256: 3c8afa74bcfc0ab2b20dac9733f0efbb175f50b6ec65d56a37735eccfe6271d7
       - cargo-sources.json
     build-options:
       append-path: /usr/lib/sdk/rust-stable/bin

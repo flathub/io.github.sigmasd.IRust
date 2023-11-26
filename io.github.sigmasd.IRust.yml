@@ -7,7 +7,11 @@ sdk-extensions:
   - org.freedesktop.Sdk.Extension.rust-stable
 
 command: irust
-finish-args: []
+
+finish-args: 
+  - --socket=wayland
+  - --socket=fallback-x11
+
 modules:
   - name: irust
     buildsystem: simple

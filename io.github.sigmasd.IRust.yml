@@ -29,8 +29,8 @@ modules:
 
     sources:
       - type: archive
-        url: https://github.com/sigmaSd/IRust/archive/refs/tags/irust@1.71.19.tar.gz
-        sha256: 9bd98e738497e9b01f4b8b088765341c37ac94bb8c11fbbf5c9b9d7a3ee52e05
+        url: https://github.com/sigmaSd/IRust/archive/refs/tags/irust@1.71.21-1.tar.gz
+        sha256: 11dd18beb93ad62d5e5cc3248cf65588313b9d28c00f12511f533970def2a491
       - cargo-sources.json
     build-options:
       append-path: /usr/lib/sdk/rust-stable/bin

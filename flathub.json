@@ -1,0 +1,3 @@
+{
+  "end-of-life": "The flathub package is no loger maintained becuase it turns out it doesn't work, it requires bundling librustc driver, libstd and more to work. It took this long to notice its broken because installing the flatpak locally does work somehow. The application is avalaible at `https://github.com/sigmaSd/irust#install`"
+}
